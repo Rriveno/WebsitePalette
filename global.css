@@ -17,3 +17,10 @@
     --fontColor: #534eb9;
     --headerColor: #634bae;
 }
+
+body {
+    font-family: "Smooch Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}

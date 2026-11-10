@@ -7,6 +7,10 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: var(--borderColor) 2px solid;
+    border-radius: 20px;
+    padding: 0.7rem;
+    transition: 1s;
 }
 
 button {
@@ -16,6 +20,10 @@ button {
     border-radius: 30px;
     color: var(--fontColor);
     transition: 1s;
+    font-family: "Smooch Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .nav-left {
@@ -55,6 +63,13 @@ button {
     font-size: 2.5rem;
 }
 
+.top-title {
+    justify-self: center;
+    color: var(--fontColor);
+    transition: 1s;
+    font-size: 3.5rem;
+}
+
 @media (min-width: 1024px) {
 
     nav {
@@ -81,5 +96,9 @@ button {
 
     .nav-right {
         width: 25%;
+    }
+
+    .top-title {
+        font-size: 4rem;
     }
 }
