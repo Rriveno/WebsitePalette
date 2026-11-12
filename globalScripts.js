@@ -22,3 +22,17 @@ function themeToggle() {
         document.documentElement.style.setProperty("--borderColor", "#D8DCEC");
     }
 }
+
+// const copyBtn = document.getElementById("one-color-one");
+// const textElement = document.getElementsByClassName("hex-one");
+
+// copyBtn.addEventListener("click", async () => {
+// try {
+//     let text = await navigator.clipboard.writeText(textElement.innerHTML);
+//     console.log(textElement.innerHTML);
+//     copyBtn.innerHTML = "Copied!";
+//     setTimeout(() => (copyBtn.innerHTML = "Copy Code"), 100);
+// } catch (err) {
+//     console.error("Failed to copy text: ", err);
+// }
+// });

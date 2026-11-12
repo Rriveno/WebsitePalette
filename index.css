@@ -66,8 +66,75 @@ button {
 .top-title {
     justify-self: center;
     color: var(--fontColor);
-    transition: 1s;
+    transition: color 1s;
     font-size: 3.5rem;
+}
+
+.indPallet {
+    border: 2px solid var(--borderColor);
+    height: 9.6%;
+    justify-content: center;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.indPallet:hover {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.palette-text {
+    justify-self: center;
+    font-size: 1.5rem;
+    margin: 6px;
+}
+
+#palette-one {
+    height: 50rem;
+}
+
+#one-color-one {
+    background-color: #D8DCEC;
+}
+
+/* #one-color-one:hover {
+    min-width: 100%;
+} */
+
+#one-color-two {
+    background-color: #C0C8E8;
+}
+
+#one-color-three {
+    background-color: #92A2E0;
+}
+
+#one-color-four {
+    background-color: #7B8FDD;
+}
+
+#one-color-five {
+    background-color: #637BD9;
+}
+
+#one-color-six {
+    background-color: #5E6CCF;
+}
+
+#one-color-seven {
+    background-color: #5D5DC2;
+}
+
+#one-color-eight {
+    background-color: #5B4DB4;
+}
+
+#one-color-nine {
+    background-color: #674AAB;
+}
+
+#one-color-ten {
+    background-color: #7347A2;
 }
 
 @media (min-width: 1024px) {
@@ -100,5 +167,24 @@ button {
 
     .top-title {
         font-size: 4rem;
+    }
+
+    /* #palette-one {
+        width: 100%;
+    } */
+
+    .indPallet p{
+        opacity: 0;
+        transition: opacity 0.8s ease-in-out;
+    }
+
+    .indPallet {
+        transition: min-width 0.8s ease-in-out, max-width 0.8s ease-in-out;
+        min-width: 20%;
+        max-width: 20%;
+    }
+
+    .indPallet:hover p{
+        opacity: 1;
     }
 }
