@@ -1,13 +1,13 @@
 :root {
-    /* --lighterBackgroundColor: #efefefff;
-    --backgroundColor: #d8dcecff;
-    --darkerBackgroundColor: #c0c8e8ff;
+    /* --lighterBackgroundColor: #efefefff; */
     
-    --secondaryMiddleFont: #7b8fddff;
+    /* --darkerBackgroundColor: #c0c8e8ff; */
     
-    --lighterBackgroundColorDark: #5e6ccfff;
-    --darkerBackgroundColorDark: #534eb9ff;
-    --darkerBackgroundColorDark: #634baeff; */
+    /* --secondaryMiddleFont: #7b8fddff; */
+    
+    /* --lighterBackgroundColorDark: #5e6ccfff; */
+    /* --darkerBackgroundColorDark: #534eb9ff; */
+    /* --darkerBackgroundColorDark: #634baeff; */
 
     /* --fontColorLight: #637bd9ff;
     --FontColorDark: #92a2e0ff; */
@@ -16,6 +16,7 @@
     --backgroundColor: #efefef;
     --fontColor: #534eb9;
     --headerColor: #634bae;
+    --bodyBackground: #d8dcec;
 }
 
 body {

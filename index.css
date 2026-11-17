@@ -137,6 +137,12 @@ button {
     background-color: #7347A2;
 }
 
+@media (max-width: 1023px) {
+    .indPallet {
+        transition: border 1s ease-in-out;
+    }
+}
+
 @media (min-width: 1024px) {
 
     nav {
@@ -169,19 +175,15 @@ button {
         font-size: 4rem;
     }
 
-    /* #palette-one {
-        width: 100%;
-    } */
+    .indPallet {
+        transition: min-width 0.8s ease-in-out, max-width 0.8s ease-in-out, border 1s ease-in-out;
+        min-width: 20%;
+        max-width: 20%;
+    }
 
     .indPallet p{
         opacity: 0;
         transition: opacity 0.8s ease-in-out;
-    }
-
-    .indPallet {
-        transition: min-width 0.8s ease-in-out, max-width 0.8s ease-in-out;
-        min-width: 20%;
-        max-width: 20%;
     }
 
     .indPallet:hover p{
